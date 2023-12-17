@@ -1,0 +1,45 @@
+   body {
+       background-color: rgb(15, 7, 36);
+   }
+   
+   .post {
+       margin: 0px auto;
+       background-color: rgb(255, 255, 255);
+       width: 50%;
+       max-width: 1200px;
+       height: auto;
+       border-radius: 40px;
+   }
+   
+   .box-1-for-img {
+       max-width: 1200px;
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       background-color: rgb(255, 255, 255);
+   }
+   
+   .user-dtl {
+       gap: 1px;
+       display: flex;
+       color: rgb(221, 0, 0);
+       font-weight: bolder;
+   }
+   
+   .userImg {
+       width: 8rem;
+       border-radius: 12rem;
+   }
+   
+   .card .text {
+       padding: 1.2rem;
+       text-align: center;
+       justify-content: center;
+   }
+   
+   .container .btn-to-submit {
+       padding: 1.0rem;
+       color: black;
+       font-weight: bold;
+       border: none;
+       cursor: pointer;
+   }
